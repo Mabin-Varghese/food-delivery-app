@@ -54,8 +54,11 @@ module.exports = {
             cartBg: "#282a2c",
             cartItem: "#2e3033",
             cartTotal: "#343739",
+            footer:"#f8c1ab"
           },
         },
       },
-    plugins: [],
+    plugins: [
+      require('tailwind-scrollbar'),
+    ],
 };

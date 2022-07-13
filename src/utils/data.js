@@ -26,10 +26,50 @@ export const heroData = [
         imgSrc: C1,
     },
     {
-        id: 1,
+        id: 4,
         name: "Fish Kabab",
         decp: "Mixed Fish Kabab",
         price: "7.25",
         imgSrc: Fi1,
     },
 ];
+
+export const categories = [
+    {
+        id: 1,
+        name: "Chicken",
+        urlParamName: "Chicken",
+    },
+    {
+        id: 2,
+        name: "Curry",
+        urlParamName: "Curry",
+    },
+    {
+        id: 3,
+        name: "Rice",
+        urlParamName: "Rice",
+    },
+    {
+        id: 4,
+        name: "Fish",
+        urlParamName: "Fish",
+    },
+    {
+        id: 5,
+        name: "Fruits",
+        urlParamName: "Fruits",
+    },
+    {
+        id: 6,
+        name: "Icecreams",
+        urlParamName: "Icecreams",
+    },
+
+    {
+        id: 7,
+        name: "Soft Drinks",
+        urlParamName: "Soft Drinks",
+    },
+];
+
